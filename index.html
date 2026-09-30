@@ -1,0 +1,402 @@
+<!doctype html><html lang="sk"><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex, nofollow">
+<title>Reštaurácia Ponorka · vináreň a reštaurácia v Trenčianskych Tepliciach — neoficiálny návrh</title>
+<meta name="description" content="Neoficiálny návrh homepage pre Reštauráciu Ponorka (Vináreň II. rímskej légie) v Trenčianskych Tepliciach.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='15' fill='%2314283b'/%3E%3Ccircle cx='16' cy='16' r='9' fill='%232a7489' stroke='%23d3dade' stroke-width='3'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Domine:wght@400;500;600;700&family=Saira+Extra+Condensed:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --plate:#d3dade; --plate-2:#c0cad0; --plate-3:#a3b0b9;
+  --navy:#14283b; --navy-2:#1f3c57; --ink:#0f1c27;
+  --ice:#eaf0f2; --mute:#445663; --mute-l:#9db0bd;
+  --sig:#e0561f; --stone:#bcb6a7;
+  --hair:rgba(15,28,39,.22); --hair-l:rgba(234,240,242,.22);
+  --disp:"Saira Extra Condensed","Arial Narrow",sans-serif;
+  --body:"Domine",Georgia,serif;
+  --grain:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='320' height='320'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='.012 .85' numOctaves='2' seed='7'/><feColorMatrix values='0 0 0 0 .1  0 0 0 0 .16  0 0 0 0 .2  0 0 0 .22 0'/></filter><rect width='100%' height='100%' filter='url(%23n)'/></svg>");
+  --grain-s:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='260' height='260'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='.7' numOctaves='3' seed='4'/><feColorMatrix values='0 0 0 0 .25  0 0 0 0 .22  0 0 0 0 .16  0 0 0 .3 0'/></filter><rect width='100%' height='100%' filter='url(%23n)'/></svg>");
+}
+*{box-sizing:border-box;margin:0}
+html{-webkit-text-size-adjust:100%;scroll-behavior:smooth}
+body{font-family:var(--body);font-size:16px;line-height:1.6;color:var(--ink);background:var(--plate)}
+img,svg{max-width:100%;height:auto;display:block}
+a{color:inherit}
+:focus-visible{outline:3px solid var(--sig);outline-offset:3px}
+.wrap{width:100%;max-width:1180px;margin-inline:auto;padding-inline:20px}
+.lab{font-family:var(--disp);font-weight:600;text-transform:uppercase;letter-spacing:.2em;font-size:15px}
+.num{font-family:var(--disp);font-variant-numeric:tabular-nums}
+
+/* pruh */
+.notice{background:var(--ink);color:var(--ice);font-size:13px;line-height:1.45;padding:8px 0;border-bottom:1px solid #000}
+.notice .wrap{display:block}
+.notice b{font-family:var(--disp);font-weight:600;letter-spacing:.06em;text-transform:uppercase;font-size:14px;color:#fff}
+
+/* rad nitov */
+.rivets{height:26px;background:
+  radial-gradient(circle at 50% 50%,#f3f7f8 0 1.4px,#b4c0c8 2.2px,#7d8c97 5px,transparent 5.6px) 0 0/32px 26px repeat-x,
+  linear-gradient(#c4ced4,#b0bcc4);
+  border-block:1px solid rgba(15,28,39,.3);box-shadow:inset 0 1px 0 rgba(255,255,255,.5)}
+.rivets.dark{background:
+  radial-gradient(circle at 50% 50%,#6b8aa3 0 1.4px,#3b5a75 2.2px,#0c1a27 5px,transparent 5.6px) 0 0/32px 26px repeat-x,
+  linear-gradient(#1b3650,#15304a);border-block:1px solid #0b1823;box-shadow:none}
+
+/* header */
+header.top{background:var(--navy);color:var(--ice);position:sticky;top:0;z-index:20;border-bottom:1px solid #0b1823}
+header.top .wrap{display:flex;align-items:center;gap:20px;min-height:68px}
+.brand{display:flex;align-items:center;gap:12px;text-decoration:none}
+.brand svg{width:38px;height:38px;flex:none}
+.brand span{font-family:var(--disp);font-weight:700;font-size:30px;letter-spacing:.14em;line-height:1}
+.brand small{display:block;font-family:var(--disp);font-weight:500;font-size:12px;letter-spacing:.22em;color:var(--mute-l);text-transform:uppercase;margin-top:3px}
+nav.main{margin-left:auto;display:flex;gap:26px}
+nav.main a{font-family:var(--disp);font-weight:600;text-transform:uppercase;letter-spacing:.14em;font-size:16px;text-decoration:none;padding:10px 0;background:linear-gradient(var(--sig),var(--sig)) 0 100%/0 1px no-repeat;transition:background-size .2s}
+nav.main a:hover{background-size:100% 1px}
+.tel{font-family:var(--disp);font-weight:600;font-size:22px;letter-spacing:.06em;text-decoration:none;white-space:nowrap;font-variant-numeric:tabular-nums}
+.btn{display:inline-flex;align-items:center;justify-content:center;min-height:48px;padding:0 26px;background:var(--sig);color:#fff;font-family:var(--disp);font-weight:700;letter-spacing:.16em;text-transform:uppercase;font-size:18px;text-decoration:none;border:0;border-radius:2px;box-shadow:inset 0 -3px 0 rgba(0,0,0,.22);transition:filter .2s}
+.btn:hover{filter:brightness(1.08)}
+.btn.ghost{background:transparent;color:var(--ink);box-shadow:inset 0 0 0 2px var(--ink)}
+.btn.ghost-l{background:transparent;color:var(--ice);box-shadow:inset 0 0 0 2px var(--mute-l)}
+header.top .btn{min-height:44px;padding:0 20px;font-size:16px}
+
+/* hero */
+.hero{background:var(--plate) var(--grain);background-blend-mode:multiply;min-height:min(600px,82vh)}
+.hero .wrap{display:grid;grid-template-columns:1fr minmax(0,500px);gap:48px;align-items:center;padding-block:40px}
+.hero .kick{color:var(--mute);margin-bottom:18px;display:flex;gap:14px;align-items:center}
+.hero .kick::before{content:"";width:44px;height:3px;background:var(--sig)}
+.hero h2{font-family:var(--disp);font-weight:600;text-transform:uppercase;font-size:clamp(38px,4.3vw,56px);line-height:1;letter-spacing:.02em;max-width:17ch}
+.hero .lead{margin-top:22px;font-size:18px;max-width:34em;color:#22323e}
+.hero .cta{margin-top:28px;display:flex;flex-wrap:wrap;gap:12px}
+.facts{margin-top:38px;display:grid;grid-template-columns:repeat(4,auto);gap:0;justify-content:start;border-top:2px solid var(--ink)}
+.facts div{padding:12px 22px 0 0;margin-right:22px;border-right:1px solid var(--hair)}
+.facts div:last-child{border:0;margin:0}
+.facts b{display:block;font-family:var(--disp);font-weight:600;font-size:34px;line-height:1.05;font-variant-numeric:tabular-nums}
+.facts span{display:block;font-size:13px;line-height:1.35;color:var(--mute);max-width:11em;margin-top:2px}
+.port{position:relative;width:100%;container-type:inline-size;justify-self:end}
+.port svg{width:100%;filter:drop-shadow(0 18px 22px rgba(15,28,39,.3))}
+.port .glass{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;color:#ecf7f9;pointer-events:none}
+.port h1{font-family:var(--disp);font-weight:700;text-transform:uppercase;font-size:19cqw;line-height:.9;letter-spacing:.05em;padding-left:.05em;text-shadow:0 2px 0 rgba(4,20,30,.55),0 0 26px rgba(120,220,240,.35)}
+.port p{font-family:var(--disp);font-weight:500;text-transform:uppercase;letter-spacing:.2em;font-size:max(11px,3cqw);margin-top:2.4cqw;color:#bfe3ea;text-shadow:0 1px 0 rgba(4,20,30,.6)}
+
+/* lístok */
+.listok{background:var(--navy) var(--grain-s);color:var(--ice);padding:0 0 72px}
+.listok .grid{display:grid;grid-template-columns:minmax(0,5fr) minmax(0,6fr);gap:64px;padding-top:68px;align-items:start}
+.listok h2{font-family:var(--disp);font-weight:700;text-transform:uppercase;font-size:clamp(56px,8vw,112px);line-height:.88;letter-spacing:.01em}
+.listok .lab{color:var(--sig);display:block;margin-bottom:16px}
+.listok .txt{margin-top:26px;color:#c9d6de;max-width:30em}
+.listok .txt strong{color:#fff;font-weight:600}
+.listok .cta{margin-top:28px;display:flex;flex-wrap:wrap;gap:12px;align-items:center}
+.listok .src{margin-top:22px;font-size:13px;line-height:1.5;color:var(--mute-l);max-width:34em;border-top:1px solid var(--hair-l);padding-top:12px}
+.ticket{position:relative;background:var(--ice);color:var(--ink);box-shadow:0 22px 40px rgba(0,0,0,.35);border-radius:3px;filter:none}
+.ticket .tophead{display:flex;justify-content:space-between;gap:12px;align-items:baseline;padding:16px 28px;background:var(--ink);color:var(--ice);border-radius:3px 3px 0 0}
+.ticket .tophead b{font-family:var(--disp);font-weight:700;letter-spacing:.22em;text-transform:uppercase;font-size:20px}
+.ticket .tophead span{font-family:var(--disp);font-weight:500;letter-spacing:.14em;text-transform:uppercase;font-size:14px;color:var(--mute-l);text-align:right}
+.ticket .body{padding:8px 28px 6px}
+.ticket h3{font-family:var(--disp);font-weight:600;text-transform:uppercase;letter-spacing:.2em;font-size:15px;color:var(--mute);margin:22px 0 4px;display:flex;align-items:center;gap:12px}
+.ticket h3::after{content:"";flex:1;height:1px;background:var(--hair)}
+.ticket ul{list-style:none;padding:0}
+.ticket li{display:flex;align-items:baseline;gap:10px;padding:11px 0;border-bottom:1px dotted rgba(15,28,39,.4)}
+.ticket li:last-child{border:0}
+.ticket li strong{font-weight:600;font-size:clamp(18px,2.1vw,22px);line-height:1.25}
+.ticket li small{margin-left:auto;font-family:var(--disp);font-weight:500;letter-spacing:.1em;text-transform:uppercase;font-size:13px;color:var(--mute);text-align:right;white-space:nowrap}
+.ticket .stub{position:relative;margin-top:14px;border-top:2px dashed rgba(15,28,39,.45);padding:18px 28px 22px;display:flex;align-items:center;gap:20px;justify-content:space-between}
+.ticket .stub::before,.ticket .stub::after{content:"";position:absolute;top:-13px;width:24px;height:24px;border-radius:50%;background:var(--navy)}
+.ticket .stub::before{left:-12px}.ticket .stub::after{right:-12px}
+.ticket .stub b{font-family:var(--disp);font-weight:700;font-size:clamp(28px,3.4vw,40px);text-transform:uppercase;letter-spacing:.06em;line-height:1}
+.ticket .stub span{display:block;font-size:13px;color:var(--mute);margin-top:4px}
+.bars{flex:none;width:110px;height:48px;background:repeating-linear-gradient(90deg,var(--ink) 0 2px,transparent 2px 4px,var(--ink) 4px 5px,transparent 5px 9px,var(--ink) 9px 12px,transparent 12px 14px,var(--ink) 14px 15px,transparent 15px 19px)}
+
+/* kameň */
+.stone{background:var(--stone) var(--grain-s);border-block:1px solid rgba(60,55,44,.45);box-shadow:inset 0 2px 0 rgba(255,255,255,.35),inset 0 -2px 0 rgba(0,0,0,.12)}
+.stone .wrap{padding-block:54px 50px}
+.stone p.t{font-family:var(--disp);font-weight:600;text-transform:uppercase;font-size:clamp(33px,min(9vw,96px),96px);line-height:1;letter-spacing:.2em;color:#8a8474;text-shadow:0 2px 0 rgba(255,255,255,.55),0 -1px 0 rgba(40,36,28,.45);white-space:nowrap}
+.stone p.t span{display:block;white-space:normal}
+.stone p.s{margin-top:22px;font-size:14px;color:#4c473c;max-width:44em;border-top:1px solid rgba(60,55,44,.35);padding-top:12px}
+
+/* priestor */
+.space{padding:76px 0 70px;background:var(--plate) var(--grain);background-blend-mode:multiply}
+.sec-h{display:flex;align-items:baseline;gap:22px;flex-wrap:wrap;margin-bottom:34px}
+.sec-h h2{font-family:var(--disp);font-weight:700;text-transform:uppercase;font-size:clamp(40px,5.6vw,68px);line-height:.95;letter-spacing:.02em}
+.sec-h p{color:var(--mute);max-width:30em;font-size:15px}
+.plates{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}
+.plate{position:relative;padding:34px 22px 24px;background:linear-gradient(160deg,#dde4e8,#b9c4cb);border:1px solid rgba(15,28,39,.35);border-radius:3px;box-shadow:inset 0 1px 0 rgba(255,255,255,.6),0 6px 12px rgba(15,28,39,.12);min-height:210px;
+  background-image:radial-gradient(circle,#f3f7f8 0 1px,#8d9ba6 2px,transparent 4.5px),radial-gradient(circle,#f3f7f8 0 1px,#8d9ba6 2px,transparent 4.5px),radial-gradient(circle,#f3f7f8 0 1px,#8d9ba6 2px,transparent 4.5px),radial-gradient(circle,#f3f7f8 0 1px,#8d9ba6 2px,transparent 4.5px),linear-gradient(160deg,#dde4e8,#b9c4cb);
+  background-size:10px 10px,10px 10px,10px 10px,10px 10px,auto;
+  background-position:8px 8px,calc(100% - 8px) 8px,8px calc(100% - 8px),calc(100% - 8px) calc(100% - 8px),0 0;background-repeat:no-repeat}
+.plate b{display:block;font-family:var(--disp);font-weight:700;text-transform:uppercase;font-size:clamp(40px,4.2vw,56px);line-height:.95;letter-spacing:.02em;font-variant-numeric:tabular-nums}
+.plate p{margin-top:12px;font-size:15px;line-height:1.5;color:#2a3a46}
+.plate em{display:block;margin-top:10px;font-style:normal;font-size:12px;color:var(--mute)}
+
+/* víkend */
+.live{background:var(--ice);border-block:1px solid var(--hair)}
+.live .wrap{display:grid;grid-template-columns:minmax(0,7fr) minmax(0,5fr);gap:48px;align-items:end;padding-block:56px}
+.live h2{font-family:var(--disp);font-weight:700;text-transform:uppercase;font-size:clamp(52px,9vw,128px);line-height:.88;letter-spacing:.01em;color:var(--navy)}
+.live h2 i{font-style:normal;color:var(--sig)}
+.live p{font-size:16px;max-width:28em}
+.live p small{display:block;margin-top:12px;font-size:13px;color:var(--mute)}
+
+/* hodnotenie */
+.rate{background:var(--navy-2) var(--grain-s);color:var(--ice);padding:70px 0}
+.rate .wrap{display:grid;grid-template-columns:minmax(0,320px) minmax(0,1fr);gap:64px;align-items:center}
+.gauge{width:100%;max-width:320px}
+.gauge .face{fill:#0f1f2d;stroke:#b7c4cc;stroke-width:6}
+.gauge .ring{fill:none;stroke:#2a4863;stroke-width:1}
+.gauge .tk line{stroke:#d3dde3}
+.gauge text{font-family:var(--disp);font-weight:600;font-size:17px;fill:#d3dde3;text-anchor:middle}
+.gauge .val{fill:none;stroke:var(--sig);stroke-width:5;stroke-linecap:butt}
+.gauge .needle{stroke:#fff;stroke-width:2.6;stroke-linecap:round}
+.gauge .tail{stroke:#fff;stroke-width:5;stroke-linecap:round}
+.gauge .cap{fill:#b7c4cc;stroke:#0f1f2d;stroke-width:2}
+.gauge .big{font-size:38px;font-weight:700;fill:#fff}
+.gauge .unit{font-size:10px;letter-spacing:.2em;fill:#9db0bd}
+.rate h2{font-family:var(--disp);font-weight:700;text-transform:uppercase;font-size:clamp(40px,5.6vw,68px);line-height:.95;letter-spacing:.02em}
+.rate .rows{margin-top:26px;border-top:1px solid var(--hair-l)}
+.rate .row{display:flex;align-items:baseline;gap:18px;padding:16px 0;border-bottom:1px solid var(--hair-l);flex-wrap:wrap}
+.rate .row b{font-family:var(--disp);font-weight:700;font-size:42px;line-height:1;min-width:2.6em;font-variant-numeric:tabular-nums}
+.rate .row span{color:#c9d6de;font-size:15px}
+.rate .row span strong{color:#fff;font-weight:600}
+.rate .note{margin-top:16px;font-size:13px;color:var(--mute-l)}
+
+/* kontakt */
+.contact{background:var(--plate) var(--grain);background-blend-mode:multiply;padding:76px 0 64px}
+.cgrid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:0;border-top:2px solid var(--ink)}
+.cgrid>div{padding:26px 28px 10px 0}
+.cgrid>div+div{padding-left:28px;border-left:1px solid var(--hair)}
+.cgrid h3{font-family:var(--disp);font-weight:600;text-transform:uppercase;letter-spacing:.2em;font-size:15px;color:var(--mute);margin-bottom:12px}
+.cgrid p{font-size:17px;line-height:1.55}
+.cgrid .big{font-family:var(--disp);font-weight:700;font-size:clamp(30px,3.3vw,42px);line-height:1.05;letter-spacing:.03em;text-decoration:none;display:inline-block;font-variant-numeric:tabular-nums}
+.cgrid .note{display:block;font-size:13px;color:var(--mute);margin-top:8px;line-height:1.5}
+table.h{border-collapse:collapse;width:100%;font-size:16px}
+table.h td{padding:7px 0;border-bottom:1px dotted rgba(15,28,39,.4)}
+table.h td:last-child{text-align:right;font-family:var(--disp);font-weight:600;font-size:20px;font-variant-numeric:tabular-nums;letter-spacing:.04em}
+.links{margin-top:14px;display:flex;flex-wrap:wrap;gap:10px 22px}
+.links a{font-family:var(--disp);font-weight:600;letter-spacing:.14em;text-transform:uppercase;font-size:16px;padding:10px 0;text-decoration:none;background:linear-gradient(var(--sig),var(--sig)) 0 calc(100% - 6px)/100% 1px no-repeat;transition:background-size .2s}
+.links a:hover{background-size:100% 3px}
+
+footer{background:var(--ink);color:var(--mute-l);font-size:14px;padding:26px 0 30px}
+footer .wrap{display:flex;justify-content:space-between;gap:12px 28px;flex-wrap:wrap;align-items:center}
+footer b{font-family:var(--disp);font-weight:700;color:var(--ice);letter-spacing:.2em;font-size:18px}
+
+.mbar{display:none}
+
+@media (max-width:980px){
+  .hero .wrap{grid-template-columns:1fr;gap:26px;padding-block:28px 34px}
+  .port{max-width:460px;justify-self:center;order:-1}
+  .hero h2{max-width:14ch}
+  .listok .grid{grid-template-columns:1fr;gap:36px;padding-top:44px}
+  .plates{grid-template-columns:repeat(2,1fr)}
+  .live .wrap{grid-template-columns:1fr;gap:20px;padding-block:44px}
+  .rate .wrap{grid-template-columns:1fr;gap:34px}
+  .gauge{margin-inline:auto}
+  .cgrid{grid-template-columns:1fr}
+  .cgrid>div,.cgrid>div+div{padding:22px 0 12px;border-left:0;border-bottom:1px solid var(--hair)}
+  nav.main{display:none}
+  header.top .tel{margin-left:auto}
+}
+@media (max-width:640px){
+  body{font-size:16px}
+  .notice{font-size:12.5px}
+  .brand span{font-size:26px}
+  header.top .tel,header.top .btn{display:none}
+  .facts{grid-template-columns:repeat(2,1fr);row-gap:6px}
+  .facts div{border:0;margin:0;padding:12px 12px 6px 0}
+  .facts b{font-size:30px}
+  .plates{grid-template-columns:1fr}
+  .plate{min-height:0}
+  .ticket .tophead,.ticket .body,.ticket .stub{padding-inline:18px}
+  .ticket .tophead span{display:none}
+  .ticket li{flex-wrap:wrap}
+  .ticket li small{margin-left:0;flex-basis:100%;text-align:left;white-space:normal}
+  .ticket .stub{flex-direction:column;align-items:flex-start}
+  .stone .wrap{padding-block:40px 36px}
+  footer{padding-bottom:calc(88px + env(safe-area-inset-bottom))}
+  .rate .row b{font-size:36px}
+  .mbar{display:grid;grid-template-columns:1fr 1fr;position:fixed;left:0;right:0;bottom:0;z-index:30;background:var(--ink);border-top:1px solid #000;padding-bottom:env(safe-area-inset-bottom)}
+  .mbar a{display:flex;align-items:center;justify-content:center;min-height:56px;color:var(--ice);font-family:var(--disp);font-weight:700;letter-spacing:.16em;text-transform:uppercase;font-size:19px;text-decoration:none}
+  .mbar a:first-child{background:var(--sig);color:#fff}
+  .mbar a+a{border-left:1px solid #2a3c4b}
+}
+@media (prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}}
+</style>
+
+<div class="notice"><div class="wrap"><b>Neoficiálny návrh</b> — nie je to oficiálny web podniku · ukážka od webdavid.sk, objednávky ani rezervácie tu nefungujú</div></div>
+
+<header class="top">
+  <div class="wrap">
+    <a class="brand" href="#top" aria-label="Ponorka — na začiatok">
+      <svg viewBox="0 0 40 40" aria-hidden="true"><circle cx="20" cy="20" r="19" fill="#c7d1d7" stroke="#6d7c87"/><circle cx="20" cy="20" r="13" fill="#14283b" stroke="#e0561f" stroke-width="1.5"/><circle cx="20" cy="20" r="10" fill="#2a7489"/><path d="M12 16a10 10 0 0 1 9-5" stroke="#fff" stroke-opacity=".5" fill="none" stroke-width="1.6" stroke-linecap="round"/></svg>
+      <div><span>PONORKA</span><small>Vináreň II. rímskej légie</small></div>
+    </a>
+    <nav class="main" aria-label="Hlavné menu"><a href="#listok">Lístok</a><a href="#priestor">Priestor</a><a href="#hodnotenie">Hodnotenie</a><a href="#kontakt">Kontakt</a></nav>
+    <a class="tel" href="tel:+421326552327">032 655 23 27</a>
+    <a class="btn" href="tel:+421326552327">Zavolať</a>
+  </div>
+</header>
+
+<main id="top">
+<section class="hero">
+  <div class="wrap">
+    <div>
+      <p class="lab kick">Reštaurácia · vináreň · Trenčianske Teplice</p>
+      <h2>Tradičná slovenská kuchyňa pod hladinou Tepliciek</h2>
+      <p class="lead">Halušky, rezeň a čapované pivo, terasa a cez víkend živá hudba. Ponorka je reštaurácia a vináreň v Trenčianskych Tepliciach.</p>
+      <div class="cta"><a class="btn" href="tel:+421326552327">Zavolať +421 32 655 23 27</a><a class="btn ghost" href="https://www.google.com/maps/search/Re%C5%A1taur%C3%A1cia+Ponorka+Tren%C4%8Dianske+Teplice" target="_blank" rel="noopener">Navigovať</a></div>
+      <div class="facts">
+        <div><b>4,2 ★</b><span>Google, 206 hodnotení</span></div>
+        <div><b>Terasa</b><span>vonkajšie sedenie</span></div>
+        <div><b>Víkend</b><span>živá hudba</span></div>
+        <div><b>115</b><span>miest na jednom podlaží</span></div>
+      </div>
+    </div>
+    <div class="port">
+      <svg viewBox="0 0 500 500" role="img" aria-label="Kresba lodného priezoru s nitmi a vodou za sklom">
+        <defs>
+          <linearGradient id="fl" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#eef3f5"/><stop offset=".38" stop-color="#aab7c0"/><stop offset=".62" stop-color="#d9e1e5"/><stop offset="1" stop-color="#7f8e99"/></linearGradient>
+          <linearGradient id="fl2" x1="1" y1="1" x2="0" y2="0"><stop offset="0" stop-color="#e4eaed"/><stop offset=".5" stop-color="#8c9aa5"/><stop offset="1" stop-color="#c9d3d9"/></linearGradient>
+          <radialGradient id="wt" cx=".42" cy=".3" r=".85"><stop offset="0" stop-color="#3b92a8"/><stop offset=".45" stop-color="#1b5671"/><stop offset="1" stop-color="#06131e"/></radialGradient>
+          <radialGradient id="bo" cx=".35" cy=".3" r=".8"><stop offset="0" stop-color="#f3f7f8"/><stop offset=".6" stop-color="#9eabb5"/><stop offset="1" stop-color="#5f6e79"/></radialGradient>
+          <clipPath id="gl"><circle cx="250" cy="250" r="158"/></clipPath>
+          <g id="bolt"><circle r="13" fill="url(#bo)" stroke="#55646f" stroke-width="1.2"/><path d="M0-7.5 6.5-3.7v7.5L0 7.5-6.5 3.7v-7.5z" fill="#6f7e89" stroke="#46545f" stroke-width="1"/><path d="M-6.5-3.7 0-7.5 6.5-3.7" fill="none" stroke="#c9d3d9" stroke-width="1.2"/></g>
+        </defs>
+        <circle cx="250" cy="250" r="246" fill="url(#fl)" stroke="#5d6c77" stroke-width="2"/>
+        <circle cx="250" cy="250" r="197" fill="none" stroke="#4d5c67" stroke-width="3"/>
+        <circle cx="250" cy="250" r="193" fill="url(#fl2)"/>
+        <circle cx="250" cy="250" r="176" fill="none" stroke="#e0561f" stroke-width="3"/>
+        <circle cx="250" cy="250" r="170" fill="#22323e"/>
+        <circle cx="250" cy="250" r="162" fill="#0a1822"/>
+        <g clip-path="url(#gl)">
+          <circle cx="250" cy="250" r="160" fill="url(#wt)"/>
+          <path d="M130 70 232 70 330 440 180 440z" fill="#fff" opacity=".05"/>
+          <path d="M240 60 290 60 380 420 320 440z" fill="#fff" opacity=".06"/>
+          <path d="M60 330C120 300 170 330 230 316S340 290 440 330V440H60z" fill="#04101a" opacity=".55"/>
+          <path d="M60 372C130 346 190 380 260 364S380 346 440 376V440H60z" fill="#030b12" opacity=".75"/>
+          <g fill="none" stroke="#d7f3f8" stroke-opacity=".5" stroke-width="1.4"><circle cx="170" cy="300" r="6"/><circle cx="182" cy="270" r="3.5"/><circle cx="160" cy="250" r="2.4"/><circle cx="340" cy="330" r="8"/><circle cx="352" cy="296" r="4"/><circle cx="330" cy="270" r="2.6"/><circle cx="356" cy="360" r="3"/></g>
+          <path d="M70 160C110 150 140 172 180 162" stroke="#fff" stroke-opacity=".12" stroke-width="2" fill="none"/>
+        </g>
+        <path d="M112 196A146 146 0 0 1 214 108" stroke="#fff" stroke-opacity=".32" stroke-width="10" stroke-linecap="round" fill="none"/>
+        <path d="M128 232A140 140 0 0 1 140 184" stroke="#fff" stroke-opacity=".25" stroke-width="5" stroke-linecap="round" fill="none"/>
+        <use href="#bolt" transform="translate(250.0 30.0) rotate(0.0)"/><use href="#bolt" transform="translate(334.2 46.7) rotate(29.5)"/><use href="#bolt" transform="translate(405.6 94.4) rotate(59.0)"/><use href="#bolt" transform="translate(453.3 165.8) rotate(67.5)"/><use href="#bolt" transform="translate(470.0 250.0) rotate(97.0)"/><use href="#bolt" transform="translate(453.3 334.2) rotate(126.5)"/><use href="#bolt" transform="translate(405.6 405.6) rotate(135.0)"/><use href="#bolt" transform="translate(334.2 453.3) rotate(164.5)"/><use href="#bolt" transform="translate(250.0 470.0) rotate(194.0)"/><use href="#bolt" transform="translate(165.8 453.3) rotate(202.5)"/><use href="#bolt" transform="translate(94.4 405.6) rotate(232.0)"/><use href="#bolt" transform="translate(46.7 334.2) rotate(261.5)"/><use href="#bolt" transform="translate(30.0 250.0) rotate(270.0)"/><use href="#bolt" transform="translate(46.7 165.8) rotate(299.5)"/><use href="#bolt" transform="translate(94.4 94.4) rotate(329.0)"/><use href="#bolt" transform="translate(165.8 46.7) rotate(337.5)"/>
+      </svg>
+      <div class="glass"><h1>Ponorka</h1><p>Reštaurácia · Trenčianske Teplice</p></div>
+    </div>
+  </div>
+</section>
+<div class="rivets" aria-hidden="true"></div>
+
+<section class="listok" id="listok">
+  <div class="wrap grid">
+    <div>
+      <span class="lab">Čo sa varí</span>
+      <h2>Palubný lístok</h2>
+      <p class="txt"><strong>Tradičná slovenská kuchyňa.</strong> Hostia sa podľa verejných recenzií vracajú najmä k bryndzovým haluškám, vyprážanému rezňu a zemiakovým plackám s bryndzou.</p>
+      <div class="cta"><a class="btn" href="tel:+421326552327">Zavolať a spýtať sa na dnešok</a></div>
+      <p class="src">Podnik nezverejňuje jedálny lístok ani cenník online, preto <strong>ceny na mieste</strong>. Zdroj: hostia na slovenskobcan.com, firemný záznam na Azet.sk. Ukážka návrhu: sem príde aktuálne denné menu.</p>
+    </div>
+    <div class="ticket">
+      <div class="tophead"><b>Palubný lístok</b><span>Ponorka · Trenčianske Teplice</span></div>
+      <div class="body">
+        <h3>Z kuchyne</h3>
+        <ul>
+          <li><strong>Bryndzové halušky</strong><small>obľúbené u hostí</small></li>
+          <li><strong>Vyprážaný rezeň</strong><small>obľúbené u hostí</small></li>
+          <li><strong>Zemiakové placky s bryndzou</strong><small>obľúbené u hostí</small></li>
+          <li><strong>Denné menu</strong><small>aktuálne na telefóne</small></li>
+        </ul>
+        <h3>Z vinárne a baru</h3>
+        <ul>
+          <li><strong>Čapované pivo</strong><small>Šariš, Plzeň</small></li>
+          <li><strong>Alkoholické a nealkoholické nápoje</strong></li>
+          <li><strong>Zákusky</strong></li>
+        </ul>
+      </div>
+      <div class="stub"><div><b>Ceny na mieste</b><span>Jedálny lístok ani cenník nie sú online.</span></div><div class="bars" aria-hidden="true"></div></div>
+    </div>
+  </div>
+</section>
+
+<section class="stone" aria-label="Druhý názov podniku">
+  <div class="wrap">
+    <p class="t"><span>Vináreň</span><span>II. rímskej légie</span></p>
+    <p class="s">Druhé meno podniku. Pod názvom „Vináreň II. rímskej légie“ ho nájdete aj vo firemných katalógoch. Hostia mu hovoria Ponorka.</p>
+  </div>
+</section>
+
+<section class="space" id="priestor">
+  <div class="wrap">
+    <div class="sec-h"><h2>Priestor</h2><p>Čo o podniku vieme z verejných zdrojov. Presné údaje si pred návštevou radšej overte telefonicky.</p></div>
+    <div class="plates">
+      <div class="plate"><b>Terasa</b><p>Vonkajšie sedenie pri Ponorke.</p><em>slovenskobcan.com</em></div>
+      <div class="plate"><b class="num">115</b><p>miest, všetko na jednom podlaží.</p><em>poi.oma.sk</em></div>
+      <div class="plate"><b>Denné menu</b><p>Ponúkajú ho podľa recenzií hostí. Čo je dnes na tanieri, povie telefón.</p><em>slovenskobcan.com</em></div>
+      <div class="plate"><b class="num">16:00</b><p>Od tejto hodiny funguje fajčiarska časť.</p><em>slovenskobcan.com</em></div>
+    </div>
+  </div>
+</section>
+
+<section class="live" id="vikend">
+  <div class="wrap">
+    <h2>Cez víkend <i>naživo</i></h2>
+    <p>Živá hudba cez víkend, tak ju uvádzajú hostia. Kto hrá a od koľkej, vám povedia na telefóne.<small>Zdroj: slovenskobcan.com. Program nemáme, preto žiadne dátumy.</small></p>
+  </div>
+</section>
+
+<section class="rate" id="hodnotenie">
+  <div class="wrap">
+    <svg class="gauge" viewBox="0 0 240 240" role="img" aria-label="Ručičkový meradlo s hodnotou 4,2 z 5">
+      <circle class="face" cx="120" cy="120" r="114"/>
+      <circle class="ring" cx="120" cy="120" r="104"/>
+      <path class="val" d="M49.3 190.7A100 100 0 1 1 220.0 123.1"/>
+      <g class="tk"><line x1="54.9" y1="185.1" x2="64.8" y2="175.2" stroke-width="2.2"/><line x1="49.1" y1="178.6" x2="52.2" y2="176.1" stroke-width="1"/><line x1="43.9" y1="171.7" x2="47.2" y2="169.5" stroke-width="1"/><line x1="39.4" y1="164.3" x2="42.9" y2="162.4" stroke-width="1"/><line x1="35.6" y1="156.5" x2="39.2" y2="154.9" stroke-width="1"/><line x1="32.5" y1="148.4" x2="40.1" y2="146.0" stroke-width="1"/><line x1="30.2" y1="140.1" x2="34.1" y2="139.2" stroke-width="1"/><line x1="28.7" y1="131.5" x2="32.7" y2="131.0" stroke-width="1"/><line x1="28.0" y1="122.9" x2="32.0" y2="122.8" stroke-width="1"/><line x1="28.2" y1="114.2" x2="32.2" y2="114.5" stroke-width="1"/><line x1="29.1" y1="105.6" x2="43.0" y2="107.8" stroke-width="2.2"/><line x1="30.9" y1="97.1" x2="34.8" y2="98.1" stroke-width="1"/><line x1="33.4" y1="88.8" x2="37.2" y2="90.2" stroke-width="1"/><line x1="36.8" y1="80.8" x2="40.4" y2="82.5" stroke-width="1"/><line x1="40.8" y1="73.2" x2="44.3" y2="75.2" stroke-width="1"/><line x1="45.6" y1="65.9" x2="52.0" y2="70.6" stroke-width="1"/><line x1="51.0" y1="59.2" x2="54.0" y2="61.8" stroke-width="1"/><line x1="57.0" y1="52.9" x2="59.8" y2="55.9" stroke-width="1"/><line x1="63.6" y1="47.3" x2="66.1" y2="50.5" stroke-width="1"/><line x1="70.7" y1="42.3" x2="72.8" y2="45.7" stroke-width="1"/><line x1="78.2" y1="38.0" x2="84.6" y2="50.5" stroke-width="2.2"/><line x1="86.1" y1="34.5" x2="87.6" y2="38.2" stroke-width="1"/><line x1="94.3" y1="31.7" x2="95.4" y2="35.5" stroke-width="1"/><line x1="102.8" y1="29.6" x2="103.5" y2="33.6" stroke-width="1"/><line x1="111.3" y1="28.4" x2="111.7" y2="32.4" stroke-width="1"/><line x1="120.0" y1="28.0" x2="120.0" y2="36.0" stroke-width="1"/><line x1="128.7" y1="28.4" x2="128.3" y2="32.4" stroke-width="1"/><line x1="137.2" y1="29.6" x2="136.5" y2="33.6" stroke-width="1"/><line x1="145.7" y1="31.7" x2="144.6" y2="35.5" stroke-width="1"/><line x1="153.9" y1="34.5" x2="152.4" y2="38.2" stroke-width="1"/><line x1="161.8" y1="38.0" x2="155.4" y2="50.5" stroke-width="2.2"/><line x1="169.3" y1="42.3" x2="167.2" y2="45.7" stroke-width="1"/><line x1="176.4" y1="47.3" x2="173.9" y2="50.5" stroke-width="1"/><line x1="183.0" y1="52.9" x2="180.2" y2="55.9" stroke-width="1"/><line x1="189.0" y1="59.2" x2="186.0" y2="61.8" stroke-width="1"/><line x1="194.4" y1="65.9" x2="188.0" y2="70.6" stroke-width="1"/><line x1="199.2" y1="73.2" x2="195.7" y2="75.2" stroke-width="1"/><line x1="203.2" y1="80.8" x2="199.6" y2="82.5" stroke-width="1"/><line x1="206.6" y1="88.8" x2="202.8" y2="90.2" stroke-width="1"/><line x1="209.1" y1="97.1" x2="205.2" y2="98.1" stroke-width="1"/><line x1="210.9" y1="105.6" x2="197.0" y2="107.8" stroke-width="2.2"/><line x1="211.8" y1="114.2" x2="207.8" y2="114.5" stroke-width="1"/><line x1="212.0" y1="122.9" x2="208.0" y2="122.8" stroke-width="1"/><line x1="211.3" y1="131.5" x2="207.3" y2="131.0" stroke-width="1"/><line x1="209.8" y1="140.1" x2="205.9" y2="139.2" stroke-width="1"/><line x1="207.5" y1="148.4" x2="199.9" y2="146.0" stroke-width="1"/><line x1="204.4" y1="156.5" x2="200.8" y2="154.9" stroke-width="1"/><line x1="200.6" y1="164.3" x2="197.1" y2="162.4" stroke-width="1"/><line x1="196.1" y1="171.7" x2="192.8" y2="169.5" stroke-width="1"/><line x1="190.9" y1="178.6" x2="187.8" y2="176.1" stroke-width="1"/><line x1="185.1" y1="185.1" x2="175.2" y2="175.2" stroke-width="2.2"/></g>
+      <text x="76.2" y="168.8">0</text><text x="58.8" y="115.3">1</text><text x="91.9" y="69.8">2</text><text x="148.1" y="69.8">3</text><text x="181.2" y="115.3">4</text><text x="163.8" y="168.8">5</text>
+      <text class="big" x="120" y="172">4,2</text>
+      <text class="unit" x="120" y="190">Z 5 · GOOGLE</text>
+      <line class="tail" x1="120" y1="120" x2="100.0" y2="119.4"/>
+      <line class="needle" x1="120" y1="120" x2="204.0" y2="122.6"/>
+      <circle class="cap" cx="120" cy="120" r="7"/>
+    </svg>
+    <div>
+      <h2>Hĺbka ponoru</h2>
+      <div class="rows">
+        <div class="row"><b>4,2 ★</b><span><strong>Google</strong> · 206 hodnotení</span></div>
+        <div class="row"><b>193</b><span><strong>slovenskobcan.com</strong> · recenzií, prevažne pozitívnych</span></div>
+      </div>
+      <p class="note">Len súhrn z verejných portálov, bez citovania jednotlivých recenzií. Stav k 30. 9. 2026.</p>
+    </div>
+  </div>
+</section>
+
+<section class="contact" id="kontakt">
+  <div class="wrap">
+    <div class="sec-h"><h2>Kontakt</h2><p>Stôl si overíte telefonicky, online rezervácia tu nefunguje.</p></div>
+    <div class="cgrid">
+      <div>
+        <h3>Kde nás nájdete</h3>
+        <p>17. novembra 284<br>914 51 Trenčianske Teplice</p>
+        <span class="note">Adresu overiť: niektoré katalógy uvádzajú „17. novembra 1“.</span>
+        <div class="links"><a href="https://www.google.com/maps/search/Re%C5%A1taur%C3%A1cia+Ponorka+Tren%C4%8Dianske+Teplice" target="_blank" rel="noopener">Navigovať</a><a href="https://instagram.com/restauraciaponorka" target="_blank" rel="noopener">Instagram</a></div>
+      </div>
+      <div>
+        <h3>Telefón</h3>
+        <a class="big" href="tel:+421326552327">+421 32 655 23 27</a>
+        <span class="note">Číslo zo slovenskobcan.com a Google, overiť.</span>
+      </div>
+      <div>
+        <h3>Otváracie hodiny</h3>
+        <table class="h" aria-label="Otváracie hodiny, treba overiť">
+          <tr><td>Pondelok</td><td>11–21</td></tr>
+          <tr><td>Utorok – sobota</td><td>11–22</td></tr>
+          <tr><td>Nedeľa</td><td>11–21</td></tr>
+        </table>
+        <span class="note">Overiť: slovenskobcan.com uvádza toto, Google 11–22 denne. Živý stav nezobrazujeme.</span>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap"><b>PONORKA</b><span>Neoficiálny návrh webu · webdavid.sk · 2026</span></div>
+</footer>
+
+<nav class="mbar" aria-label="Rýchle akcie"><a href="tel:+421326552327">Zavolať</a><a href="https://www.google.com/maps/search/Re%C5%A1taur%C3%A1cia+Ponorka+Tren%C4%8Dianske+Teplice" target="_blank" rel="noopener">Navigovať</a></nav>
